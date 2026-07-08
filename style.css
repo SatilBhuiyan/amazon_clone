@@ -171,3 +171,28 @@
     align-items: center;
     justify-content: center;
 }
+/** hero section **/
+
+.hero-section{
+    background-image: url(/Image/hero_image.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-text{
+    font-size: 0.85rem;
+    background-color: #FFFFFF;
+    color: #0F1111;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.hero-text a{
+    color: #007185;
+}
